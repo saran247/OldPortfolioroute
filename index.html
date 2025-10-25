@@ -88,7 +88,6 @@
         <p>
           The static HTML portfolio on this domain has been disabled.<br />
           A new <strong>React.js</strong> version is now live at new domain.<br />
-          Redirecting in <span id="countdown">15</span> seconds...
         </p>
         <h5>Thanks For Visiting!</h5>
         <a
@@ -99,13 +98,16 @@
         >
           Go to New Site
         </a>
+        <p>
+          Redirecting automatically in <span id="countdown">15</span> seconds...
+        </p>
       </div>
     </div>
 
     <!-- ✅ Auto Redirect + Countdown -->
     <script>
       const newURL = "https://kirithiksaranportfolio.vercel.app/";
-      let timeLeft = 5;
+      let timeLeft = 15;
       const countdown = document.getElementById("countdown");
 
       const timer = setInterval(() => {
